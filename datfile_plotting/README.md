@@ -11,8 +11,8 @@ Plots the datfile from experiments and save then under .eps and .png using an ap
 ```
 ./plotting.sh
 ```
-If you get an error saying you can't try making the script executable.
+5. (optionnal)If you get an error saying you can't, try making the script executable.
 ```
 chmod +x plotting.sh
 ```
-5. The script ran correctly, everyone is happy. You will find a bunch of `.eps` and `.png` files corresponding to your experimental results along in the directory.
+6. The script ran correctly, everyone is happy. You will find a bunch of `.eps` and `.png` files corresponding to your experimental results along in the directory.
