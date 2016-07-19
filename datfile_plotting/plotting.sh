@@ -27,9 +27,9 @@ for i in $( ls *.dat ); do
     mv position.eps "position_$filename.eps"
     mv force.eps "force_$filename.eps"
 
-   gnuplot plot_png.plt
-   mv position.png "position_$filename.png"
-   mv force.png "force_$filename.png"
+    gnuplot plot_png.plt
+    mv position.png "position_$filename.png"
+    mv force.png "force_$filename.png"
 
 done
 
